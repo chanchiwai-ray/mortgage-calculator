@@ -15,7 +15,7 @@ license = {file = "LICENSE"}
 dynamic = ["dependencies"]
 
 [project.scripts]
-mortgaga-calculator = "mortgage_calculator.app:main"
+mortgage-calculator = "mortgage_calculator.app:main"
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
